@@ -1,5 +1,5 @@
 # Express File Path Router
-Express File Path Router automatically uses `.js` and `.ts` in your project's `routes` directory to route requests based on the file path.
+Automatically route requests to files in your `routes` directory based on the filepath.
 
 For example, a module with the file path `routes/users/_id.js` would automatically handle requests made to `/users/:id`.
 
