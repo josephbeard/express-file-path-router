@@ -1,0 +1,33 @@
+{
+  "name": "express-file-path-router",
+  "version": "1.0.0",
+  "description": "An Express router inspired by Nuxt.js and Next.js to route API requests based on file paths with easy middleware integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephbeard/express-file-path-router.git"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "framework",
+    "api",
+    "rest",
+    "app"
+  ],
+  "author": "Joseph Beard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephbeard/express-file-path-router/issues"
+  },
+  "homepage": "https://github.com/josephbeard/express-file-path-router#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "fs-readdir-recursive": "^1.1.0",
+    "process": "^0.11.10"
+  }
+}
